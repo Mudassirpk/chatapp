@@ -2,7 +2,6 @@ import { useState, useContext } from "react";
 import "./../../css/UserDashboard/UserDashboard.css";
 
 import Form from "./../Universal/Form";
-import cimg from "./../../images/check3.jpg";
 import { postRequest } from "./../../Helpers/Request";
 import { dataContext } from "./../../App";
 
@@ -53,7 +52,7 @@ function UserDashboard() {
         <div className="show__section">
           <div className="user__details">
             <div className="user__img">
-              <img src={cimg} alt="" />
+              <img alt="" />
             </div>
             <div className="information">
               <p className="name">Mskhan</p>

@@ -5,7 +5,6 @@ import Messege from "./Messege";
 
 import { messegeContext } from "./Home";
 
-import cimg from "./../../images/check2.jpg";
 function MessegeShow() {
   const { messegeData, specificFriend } = useContext(messegeContext);
   const scrollRef = useRef(null);
@@ -28,7 +27,6 @@ function MessegeShow() {
             <Messege
               side={messege.side}
               content={messege.messegeText}
-              img={cimg}
               key={index}
             />
           );
