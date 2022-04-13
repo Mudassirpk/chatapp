@@ -1,0 +1,148 @@
+.userdashboard__section {
+  width: 100%;
+  height: calc(100vh - 8vh);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.userdashboard__section .dashboard__container {
+  width: 70%;
+  height: 50rem;
+  background-color: #2d2942;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.userdashboard__section .dashboard__container .user__img {
+  margin-bottom: 2rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.userdashboard__section .dashboard__container .user__details .name,
+.userdashboard__section .dashboard__container .user__details .email {
+  color: lightgrey;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.userdashboard__section .dashboard__container .user__details .name {
+  font-size: 1.8rem;
+  color: lightgreen;
+}
+
+.userdashboard__section .dashboard__container .user__details .email {
+  font-size: 1.5rem;
+}
+
+.userdashboard__section .dashboard__container .actions {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.userdashboard__section .dashboard__container .actions button {
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  background-color: #7b81be;
+  color: white;
+  cursor: pointer;
+}
+
+.userdashboard__section .dashboard__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.userdashboard__section .dashboard__container .edit__section,
+.userdashboard__section .dashboard__container .show__section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.userdashboard__section .dashboard__container .edit__section .dashboard__form {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+.userdashboard__section .dashboard__container .edit__section .dashboard__form form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+@media only screen and (max-width:768px){
+  .userdashboard__section .dashboard__container{
+    width:90%;
+  }
+}
+
+@media only screen and (max-width:576px){
+
+    .userdashboard__section{
+      height:auto;
+    }
+
+    .userdashboard__section .dashboard__container{
+    flex-direction:column;
+    height:auto;
+    padding:3rem 0;
+    margin:3rem 0;
+  } 
+
+.userdashboard__section .dashboard__container .edit__section{
+  width:80%;
+  border-radius:.5rem;
+}
+
+.userdashboard__section .dashboard__container .edit__section .dashboard__form form{
+  border-radius:.5rem;
+}
+
+.userdashboard__section .dashboard__container .edit__section .dashboard__form {
+  border-radius:.5rem;
+  margin-top:2rem;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

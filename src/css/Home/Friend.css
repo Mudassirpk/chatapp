@@ -1,0 +1,135 @@
+.friend{
+  width:100%;
+  margin-bottom:.5rem;
+  display:flex;
+  flex-direction:row;
+  gap:.8rem;
+  align-items:center;
+  border-radius:1rem;
+  cursor:pointer;
+}
+
+.friend .friend__img{
+  height:5rem;
+  width:5rem;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  border-radius:50%;
+  background-color:#2d2942;
+}
+
+.friend .friend__img img{
+  object-fit:cover;
+  border-radius:50%;
+  height:90%;
+  width:90%;
+}
+
+.friend .friend__details .friend__name{
+  font-size:1.4rem;
+  color:#f5f4f0;
+  font-weight:600;
+  margin-bottom:.5rem;
+}
+
+.friend .friend__details .lastlog{
+  font-size:1.2rem;
+  color:lightgrey;
+}
+
+.friend .friend__details {
+  flex:1;
+  transition:.5s;
+  padding:.5rem;
+}
+
+.friend .friend__details:hover{ 
+  background-color:#d1d4d7;
+  border-radius:.5rem;
+}
+
+.friend .friend__details:hover .friend__name{
+  color:#2d2942;
+}
+
+.friend .friend__details:hover .lastlog{
+  color:#2d2942;
+}
+
+@media only screen and (max-width:540px){
+  .friend .friend__details p{
+      text-align:center;
+      width:100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

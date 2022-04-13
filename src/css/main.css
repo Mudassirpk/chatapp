@@ -1,0 +1,34 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  font-size:10px;
+  font-family:'Ubuntu'
+}
+
+li{
+  list-style:none;
+}
+
+a{
+  text-decoration:none;
+}
+
+img{
+  width:100%;
+  height:100%;
+}
+
+input,button,textarea{
+  border:none;
+  padding:.5rem 1rem;
+  outline:none;
+}
+
+button{
+  cursor:pointer;
+}
+

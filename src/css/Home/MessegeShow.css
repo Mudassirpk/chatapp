@@ -1,0 +1,21 @@
+.messegeshow__section{
+  height:calc(100% - 4.6rem - 8vh);
+  overflow-y:scroll;
+}
+
+.messegeshow__section::-webkit-scrollbar{
+  display:none;
+}
+
+.nul__messeges{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+}
+
+
+.messegeshow__section h1{
+  text-align:center;
+  color:white;
+}

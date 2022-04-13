@@ -1,0 +1,25 @@
+.notfound__section{
+  width:100%;
+  height:calc(100vh - 8vh);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.notfound__section .notfound__title{
+  font-size:4rem;
+  color:grey;
+  letter-spacing:2px;
+  margin-bottom : 1rem;
+}
+
+.notfound__section a{
+  font-size:1.4rem;
+  font-wieght:600;
+  padding:1rem 1rem;
+  border-radius:.5rem;
+  background-color:#7b81be;
+  color:white;
+}
+

@@ -1,0 +1,92 @@
+.usermenu{
+  padding:1rem;
+  border-radius:.5rem;
+  box-shadow: 5px 5px 10px rgb(39,39,41);
+  background-color:rgb(209, 212, 215)  ;
+  position:absolute;
+  z-index:500;
+  top:3rem;
+  right:-1rem;
+  width:35rem;
+  max-height:70vh;
+  display:flex;
+  flex-direction:column;
+}
+
+.usermenu hr{
+  margin:.5rem 0;
+}
+
+.usermenu .userheader{
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  margin-bottom:1rem;
+}
+
+.usermenu .userheader span{
+  cursor:pointer;
+}
+
+.usermenu .usermenu__content{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  gap:.5rem;
+}
+
+.usermenu .usermenu__content button{
+  padding:1rem;
+  border-radius:.5rem;
+  cursor:pointer;
+  transition:.378s;
+}
+
+.usermenu .usermenu__content .accountsettings{
+  color:#2d2942;
+  padding:.5rem;
+  border-radius:.5rem;
+  transition:.378s;
+  background-color:lightgrey;
+}
+
+.usermenu .usermenu__content .logout{
+  background-color:maroon;
+  color:white;
+  font-weight:600;
+}
+
+.usermenu .usermenu__content .accountsettings:hover{
+  background-color:white;
+}
+
+.usermenu .usermenu__content .logout:hover{
+  background-color:rgb(116,26,67);
+}
+
+.notifications{
+  flex:1;
+  overflow-y:scroll;
+}
+
+.notifications::-webkit-scrollbar{
+  display:none;
+}
+
+@media only screen and (max-width:540px){
+  .usermenu{
+    width:80vw;
+    right:0vw; 
+  }
+}
+
+
+
+
+
+
+
+
+
+

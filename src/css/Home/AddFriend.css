@@ -1,0 +1,37 @@
+.addfriend__section{
+  width:95%;
+  margin:1rem 2.5% 0 2.5%;
+  padding:1rem;
+  border-radius:.5rem;
+  background-color:lightgrey;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  cursor:pointer;
+  border:1px solid lightgrey;
+  transition:.378s;
+  margin-bottom:1rem;
+}
+
+.addfriend__section:hover{
+  background-color:transparent;
+}
+
+.addfriend__section:hover .addfriend__title{
+  color:lightgrey;
+}
+.addfriend__section:hover .span{
+  color:white;
+}
+.addfriend__section .addfriend__title{
+   color:#2d2942;
+   font-size:1.4rem;
+   font-weight:600;
+}
+
+.addfriend__section span{
+  color:black;
+}
+
+

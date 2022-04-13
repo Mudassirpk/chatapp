@@ -1,0 +1,50 @@
+.messegeone__section{
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  padding:1rem;
+}
+
+.sender{
+  justify-content:flex-start;
+}
+
+.reciever{
+  justify-content:flex-end;
+}
+
+.reciever .messege__container{
+  flex-direction:row-reverse;
+}
+
+.messege__container .sender__img{
+  height:5rem;
+  width:5rem;
+  min-width:5rem;
+  border-radius:50%;
+}
+
+.messege__container{
+  display:flex;
+  flex-direction:row;
+  gap:1rem;
+  align-items:center;
+}
+
+.messege__container .sender__img img{
+  object-fit:cover;
+  border-radius:50%;
+}
+
+.messege__container .messege__content{
+  padding:1rem;
+  background-color:#d1d4d7;
+  border-radius:.5rem;
+}
+
+.messege__container .messege__content .contentpara{
+  font-size:1.4rem;
+  font-weight:500;
+}
+
+

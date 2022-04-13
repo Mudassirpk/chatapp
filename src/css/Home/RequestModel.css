@@ -1,0 +1,45 @@
+.requestmodel{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-color:rgba(39,39,41,.5);
+}
+
+.requestmodel .model__heading{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.requestmodel .model__heading span{
+  cursor:pointer;
+}
+
+.requestmodel .model__container .requestform{
+  width:100%;
+  border-radius:0;
+}
+
+.requestmodel .model__container .requestform h1{
+  display:none;
+}
+
+.requestmodel .model__container .requestform .confirmation_head{
+  font-size:2.5rem;
+  color:#7b81be;
+  text-align:center;
+}
+
+@media only screen and (max-width:576px){
+  .requestmodel{
+    height:100%;
+  }
+  .requestmodel .model__container{
+    height:100%;
+  }
+
+  .requestmodel .model__container .requestform{
+    height:100%;
+  }
+}

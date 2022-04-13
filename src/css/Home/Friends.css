@@ -1,0 +1,38 @@
+.friends__section{
+  width:100%;
+  overflow-y:scroll;
+  padding:0 .8rem 1rem .3rem;
+  margin-top:1rem;
+  flex:1;
+}
+
+.friends__section::-webkit-scrollbar{
+  background-color:transparent;
+  width:.4rem;
+}
+
+.friends__section::-webkit-scrollbar-thumb{
+  background-color:#d1d4d7;
+  border-radius:1rem;
+}
+
+@media only screen and (max-width:540px){
+  .friends__section{
+    display:flex;
+    flex-direction:row;
+    overflow-y:hidden;
+  }
+  
+  .friends__section .friend{
+    flex-direction:column;
+  }
+
+  .friends__section::-webkit-scrollbar{
+    display:none;
+  }
+
+}
+
+
+
+
