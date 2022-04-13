@@ -37,7 +37,7 @@ const App = () => {
 
   // if user is logged in then connect to socket
   if (data !== null) {
-    socket = io("https://salty-taiga-44205.herokuapp.com/");
+    socket = io("https://salty-taiga-44205.herokuapp.com");
     socket.on("connect", () => {
       socket.emit("userdata", {
         id: socket.id,
