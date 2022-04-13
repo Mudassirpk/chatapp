@@ -1,5 +1,5 @@
 export async function postRequest(url, data, token) {
-  const response = await fetch(url, {
+  const response = await fetch(`https://salty-taiga-44205.herokuapp.com${url}`, {
     method: `POST`,
     headers: {
       "x-auth-token": `${token ? "token " + token : "no token"}`,

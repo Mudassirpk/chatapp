@@ -1,4 +1,4 @@
-jmport React, {useState, useEffect} from "react";
+import React, {useState, useEffect} from "react";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import {Redirect} from "react-router-dom";
 import {io} from "socket.io-client";
@@ -37,7 +37,7 @@ const App = () => {
 
   // if user is logged in then connect to socket
   if (data !== null) {
-    socket = io("http://localhost:5000");
+    socket = io("https://salty-taiga-44205.herokuapp.com/");
     socket.on("connect", () => {
       socket.emit("userdata", {
         id: socket.id,
